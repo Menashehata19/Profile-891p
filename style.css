@@ -1,0 +1,235 @@
+body{
+  margin: 0px;
+  
+}
+
+.main{
+  background: url('137806_adapted_1080x2400_1715186039.jpg');
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1.0;
+  position: relative;
+  top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px  20px  black;
+  border-radius:  0px 0px 40px 40px;
+}
+.nav{
+  background: #171717;
+  box-shadow: 0px  0px 12px  #EEE5E5A3;
+  border: solid 2px #FFFFFFC4;
+  height:80px;
+  border-radius: 20px;
+  position: fixed;
+  width: 95%;
+  left:  calc(2.5% - 2px);
+  top: 10px;
+  display: flex;
+  
+  justify-content: space-around;
+}
+h3{
+  color: white;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container p {
+  font-size: 23px;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: scroll;
+  color: white;
+  margin-top: 150px;
+  word-wrap: nowrap;
+  
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #DD7732;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+svg{
+  width: 48px;
+  position: absolute;
+  top: 15px;
+  height: 50px;
+  margin-right: -22px;
+}
+.svghome{
+  width: 53px;
+  
+}
+
+.menudiv{
+  display: flex;
+  justify-content: center;
+}
+
+#divmen{
+  background: white;
+  position: absolute;
+  top: 130px;
+  width: 260px;
+  height: 320px;
+  border: solid 4px  #CBCDD72E;
+  box-shadow:  0px 0px 9px ;
+  border-radius: 40px;
+  border: solid 3px #35363929;
+  margin: auto;
+  display: none;
+  margin-right: 10px;
+}
+.trxttime{
+  color: whitesmoke;
+}
+
+#timeinner{
+  color: #FF0808;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkorange;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p.aboutte{
+  text-align: left;
+  position: relative;
+  top: 12px;
+  padding: 5px;
+  color: black;
+  margin-left: 10px;
+}
+
+
+#darkModeToggle{
+width: 87px;
+height: 24px;
+background: black;
+border: solid 2px black;
+border-radius: 9px 6px 6px 6px;
+color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.flexbutton{
+  display: flex;
+  justify-content: left;
+}
+
+p::selection{
+  background: darkorange;
+  color: black;
+}
+h3::selection{
+  background: black;
+  color: white;
+  
+}
+.dark-mode{
+  background: #1E1E1E;
+  
+}
+
+
+@media only screen and (min-width: 650px) {
+  #timeinner{
+  color: #FF0808;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkorange;
+  font-weight: 500;
+  font-size: 27px;
+  font-style: normal;
+}
+
+  .main{
+  background-image: url('900560_adapted_1080x2400_1715186140.jpg');
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1.0;
+  position: relative;
+  top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px  20px  black;
+  border-radius:  0px 0px 40px 40px;
+}
+
+#divmen{
+  background: white;
+  position: absolute;
+  top: 160px;
+  width: 260px;
+  height: 320px;
+  border: solid 4px  #CBCDD72E;
+  box-shadow:  0px 0px 9px ;
+  border-radius: 40px;
+  border: solid 3px #35363929;
+  margin: auto;
+  display: none;
+  margin-right: 50px;
+}
+.container p {
+  font-size: 33px;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: scroll;
+  color: white;
+  margin-top: 150px;
+  word-wrap: nowrap;
+  
+}
+.nav{
+  background: #171717;
+  box-shadow: 0px  0px 12px  #EEE5E5A3;
+  border: solid 2px #FFFFFFC4;
+  height:80px;
+  border-radius: 20px;
+  position: fixed;
+  width: 50%;
+  left:  calc(25% - 2px);
+  top: 50px;
+  display: flex;
+  
+  justify-content: space-around;
+}
+
+}
