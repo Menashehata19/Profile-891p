@@ -147,7 +147,7 @@ if (localStorage.getItem('theme') === 'dark') {
 
 // تبديل الوضع المظلم وحفظ التفضيل في localStorage
 function toggleDarkMode() {
-  divmen.style.display="none"
+  
   var element = document.body;
   element.classList.toggle('dark-mode');
   
