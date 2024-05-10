@@ -1,6 +1,6 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
-
+document.documentElement.setAttribute('class', 'notranslate');
 const textArray = ["مطور الموقع","منشئ مواقع الكترونية"];
 const typingDelay = 200;
 const erasingDelay = 100;
