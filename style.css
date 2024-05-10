@@ -207,7 +207,7 @@ background: #BDBDBD ;
 #divbodyac{
   z-index: 1;
   background: #222222;
-  position: absolute;
+  position: fixed;
   width: 85%;
   left: 7.5%;
   top: 140px;
