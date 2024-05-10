@@ -5,7 +5,7 @@ body{
 
 .main{
   background: url('137806_adapted_1080x2400_1715186039.jpg');
-  height: 600px;
+  height: 430px;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1.0;
@@ -28,7 +28,7 @@ body{
   left:  calc(2.5% - 2px);
   top: 10px;
   display: flex;
-  
+  z-index: 1;
   justify-content: space-around;
 }
 h3{
@@ -102,17 +102,18 @@ svg{
 
 #divmen{
   background: white;
-  position: absolute;
+  position: fixed;
   top: 130px;
   width: 260px;
   height: 320px;
   border: solid 4px  #CBCDD72E;
-  box-shadow:  0px 0px 9px ;
-  border-radius: 40px;
+  box-shadow:  0px 0px 9px #07080B70;
+  border-radius: 30px;
   border: solid 3px #35363929;
   margin: auto;
   display: none;
   margin-right: 10px;
+  z-index: 1;
 }
 .trxttime{
   color: whitesmoke;
@@ -124,12 +125,15 @@ svg{
   color: darkorange;
   font-weight: 500;
   font-style: normal;
+  margin-top: -20px;
+  font-size: 21px;
+  text-shadow: 1.8px 1.8px 2px #07080B;
 }
 
 p.aboutte{
   text-align: left;
   position: relative;
-  top: 12px;
+  top: -5px;
   padding: 5px;
   color: black;
   margin-left: 10px;
@@ -141,9 +145,9 @@ width: 87px;
 height: 24px;
 background: black;
 border: solid 2px black;
-border-radius: 9px 6px 6px 6px;
+border-radius: 6px 6px 6px 6px;
 color: white;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 10px;
 }
 .flexbutton{
@@ -164,6 +168,305 @@ h3::selection{
   background: #1E1E1E;
   
 }
+
+.account{
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+
+
+.divacciunt{
+  background: #CDCDCD; border-radius: 30px 30px 29px 29px; width: 100%; height: 60px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  z-index: 1;
+}
+
+.divacciunt{
+  background: #EFEFEF; border-radius: 30px 30px 29px 29px; width: 100%; height: 60px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+.divacciunt:hover{
+background: #BDBDBD ;
+}
+
+
+
+
+.iconaccount1{
+  margin-top: -9px;
+  margin-right: 6px;
+  fill: black;
+}
+
+
+#divbodyac{
+  z-index: 1;
+  background: #222222;
+  position: absolute;
+  width: 85%;
+  left: 7.5%;
+  top: 140px;
+  height: 400px;
+  border-radius: 30px;
+  display: none;
+}
+
+.textinp{
+  width: 90%;
+  margin:10px;
+  height: 29px;
+  margin-top: 1px;
+  outline-color: #000000;
+  outline-width: .5px;
+  box-shadow: 0px 0px 4px #000000AD;
+  border: 0px solid ;
+  border-radius: 4px;
+  background: #333333;
+}
+
+.inpbas{
+  margin-top: 10px;
+  width: 90%;
+  margin:10px;
+  margin-top: 1px;
+  height: 29px;
+  outline-color: #000000;
+  outline-width: .5px;
+  box-shadow: 0px 0px 4px #000000AD;
+  border: 0px solid ;
+  border-radius: 4px;
+  background: #333333;
+}
+
+
+
+
+#thank{
+  width: 60%;
+  position: absolute;
+  top: 130px;
+  left: 20%;
+  background: white;
+  border-radius: 20px;
+  display: none;
+}
+
+
+
+
+.textinp::placeholder{
+  text-align: left;
+  margin-left: 10px;
+}
+.inpbas::placeholder{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.iconyes{
+  width: 115px;
+  margin-top: -20px;
+}
+
+
+
+.divinfo1{
+  width: 90%;
+  margin: auto;
+  height: 100px;
+  background: #01163F;
+  border-radius: 14px;
+  position: relative;
+  top: -26px;
+  left: -3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inleineflex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.divinfo12{
+  width: 43.5%;
+  background: #01163F;
+  margin-left: 6px;
+  margin-right: 6px;
+  height: 150px;
+ margin-left: 4px;
+ border-bottom: solid 6px #19BFC9;
+ border-radius: 7px 7px 7px 7px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#ioser{
+border-bottom: solid 6px #F0A732;
+}
+
+
+.whatsappicons{
+  
+  background-image: url('137806_adapted_1080x2400_1715186039.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.divsocial{
+  display: flex;
+  background: rgba(38, 38, 38, 1);
+  border-radius: 15px 15px 0px 0px;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.link {
+            text-decoration: none;
+            color: #b7b7b7;
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(72, 72, 72, 1);
+            border-radius: 25px;
+            position: relative;
+            transition: 0.4s;
+            
+        }
+        .link:hover {
+            transform: rotate(45deg);
+        }
+        .link::before {
+            content: " ";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            background: #373737;
+            border-radius: 10px;
+            transition: opasity 0.2s;
+        }
+        .link:hover::before {
+            opacity: 0.4;
+        }
+        .link:nth-child(1)::before {
+            background: #c32aa3;
+        }
+        .link:nth-child(2)::before {
+            background: #1da1f2;
+        }
+        .link:nth-child(3)::before {
+            background: #25d366;
+        }
+        .link:nth-child(4)::before {
+            background: #0a66c2;
+        }
+        .link:hover::before {
+            transform: translate(-4px, -4px);
+            filter: blur(10px);
+        }
+        .link i {
+            font-size: 1.7em;
+            transition: all 0.4s;
+        }
+        .link:hover i {
+            color: #c8c8c8;
+          transform: rotate(-45deg);
+        }
+        .link:hover i.instagram {
+            color: #c32aa3;
+        }
+        .link:hover i.twitter {
+            color: #1da1f2;
+        }
+        .link:hover i.whatsapp {
+            color: #25d366;
+        }
+        .link:hover i.linkedin {
+            color: #0a66ca;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#whatsappsvg{
+  
+  background-image: url('https://e7.pngegg.com/pngimages/347/373/png-clipart-computer-icons-whatsapp-whatsapp-text-trademark-thumbnail.png');
+background-size: cover;
+}
+
+#facebookicon{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnbSCHy2sEbTmof0zwLpCdIMRxgGRs35nSQw&usqp=CAU');
+background-size: cover;
+}
+
+
+
+#instgramicon{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUpo0VlRihPwPXz9lMx6kbTt9-fR85sGKDTQ&usqp=CAU');
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* youtube link */
+.youtube{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 160px;
+  text-align: center;
+  padding: 15px 10px;
+  background: #bb0000;
+  border-radius: 5px;
+}
+
+.youtube a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 650px) {
@@ -199,7 +502,7 @@ h3::selection{
   height: 320px;
   border: solid 4px  #CBCDD72E;
   box-shadow:  0px 0px 9px ;
-  border-radius: 40px;
+  border-radius: 35px;
   border: solid 3px #35363929;
   margin: auto;
   display: none;
