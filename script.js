@@ -44,14 +44,20 @@ let icomenu = document.getElementById('svgiconmenu');
 
 let menudiv = document.getElementById('divmen');
 
-icomenu.addEventListener('click', function(){
+
+
+function icomenu1() {
+  // Tab to edit
   if (menudiv.style.display == "none") {
     menudiv.style.display="block"
   }
   else {
     menudiv.style.display="none"
   }
-})
+}
+
+
+
 
 
 setInterval(nametime, 1000);
@@ -157,4 +163,101 @@ function toggleDarkMode() {
     localStorage.removeItem('theme');
   }
 }
+
+let divac = document.getElementById('divbodyac');
+
+let divsh = document.getElementById('showac');
+
+divsh.addEventListener('click', function(){
+divac.style.display="block"
+menudiv.style.display="none"
+})
+
+  // Tab to edit
+
+
+
+function cloce() {
+  // Tab to edit
+divac.style.display="none"
+}
+
+const btn = document.getElementById('buttonsub');
+
+let input1 = document.getElementById('inp1');
+
+let input2 = document.getElementById('inp2');
+
+let thanc = document.getElementById('thank');
+
+btn.addEventListener('click', function(){
+    
+    if (inp1.value == "") {
+      alert('Write Your Name')
+    }
+
+else if (inp2.value == "") {
+  alert('Create Password')
+}
+
+else {
+  divac.style.display="none"
+  
+  setTimeout(none,1000);
+  
+  function none() {
+    // Tab to edi
+    thanc.style.display="none"
+  }
+  
+  thanc.style.display="block"
+  
+  
+}  
+
+
+
+})
+
+
+inp1.style.color="white";
+inp2.style.color="white";
+
+
+function whatsapphref() {
+  // Tab to edit
+  
+  setTimeout(hrefwha, 130);
+  
+  function hrefwha() {
+    // Tab to edit
+    window.location.href="https://wa.me/+201270144885"
+  }
+}
+
+
+function facebookhref() {
+  // Tab to edit
+  
+  setTimeout(hrefwha, 130);
+  
+  function hrefwha() {
+    // Tab to edit
+    window.location.href="https://www.facebook.com/profile.php?id=100081772560341&mibextid=ZbWKwL"
+  }
+}
+
+
+
+function instgramhref() {
+  // Tab to edit
+  
+  setTimeout(hrefwha, 130);
+  
+  function hrefwha() {
+    // Tab to edit
+    window.location.href="https://www.instagram.com/mina.shehata1?igsh=c3lkNmJzYmg5YWti"
+  }
+}
+
 
